@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': '', 'tags': '', 'url': 'About.html'}, {'title': '40523242', 'text': '\n https://github.com/s40523242/cp2019 \n https://dartpad.dev?id=0964e616f22e783f0fbc560abbc7c034 \n <iframe\xa0 height="600"\xa0 width="800" src="https://dartpad.dev/embed-inline.html?id= 0964e616f22e783f0fbc560abbc7c034\' ><iframe>', 'tags': '', 'url': '40523242.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': '', 'tags': '', 'url': 'About.html'}]};
