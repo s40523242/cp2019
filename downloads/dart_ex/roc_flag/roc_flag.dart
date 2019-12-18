@@ -53,8 +53,6 @@ void drawUSA(ctx){
 
 }
 
-}
-
 void drawROC(ctx){
   // 先畫滿地紅
   ctx.clearRect(0, 0, flag_w, flag_h);
