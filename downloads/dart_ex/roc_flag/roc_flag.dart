@@ -4,7 +4,7 @@ import 'dart:math' as Math;
 CanvasElement canvas;
 CanvasRenderingContext2D ctx;
 int flag_w = 300;
-int flag_h = 200;
+int flag_h = 195;
 num circle_x = flag_w / 4;
 num circle_y = flag_h / 4;
 
@@ -19,11 +19,40 @@ void main() {
 }
 
 void drawUSA(ctx){
-  // 請畫出美國國旗
+  // 白底
   ctx.clearRect(0, 0, flag_w, flag_h);
-  ctx.font = "30px Arial";
-  ctx.strokeStyle = 'rgb(255, 0, 0)';
-  ctx.strokeText("請畫出美國國旗", flag_w/6, flag_w/4);
+  ctx.fillStyle = 'rgb(255, 255, 255)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  
+  //紅色條紋
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 0, flag_w, flag_h / 13);
+  
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 30, flag_w, flag_h / 13);
+    
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 60, flag_w, flag_h / 13);
+  
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 90, flag_w, flag_h / 13);
+  
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 120, flag_w, flag_h / 13);
+  
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 150, flag_w, flag_h / 13);
+  
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 180, flag_w, flag_h / 13);
+  
+  //畫藍色部分
+  ctx.fillStyle = 'rgb(0, 0, 150)';
+  ctx.fillRect(0, 0, flag_w / 2, 105);
+
+
+}
+
 }
 
 void drawROC(ctx){
