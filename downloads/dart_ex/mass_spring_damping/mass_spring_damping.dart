@@ -23,9 +23,9 @@ rungeKutta(t0, x0, v0, t, h) {
   // 計算需要迭代的次數 n
   int n = ((t - t0) / h).toInt();
   // 宣告 x 為雙浮點數, 且設為起始值 x0
-  double x = x0;
+  double x = x0.toDouble();
   // 宣告 v 為雙浮點數, 且設為起始值 v0
-  double v = v0;
+  double v = v0.toDouble();
 
   // 模擬運算前, 列出起始條件
   // 只列到小數點第三位, 時間、位移與速度以 \t  隔開, \t 代表插入 tab 符號, 可將資料複製到 Excel 進行繪圖
