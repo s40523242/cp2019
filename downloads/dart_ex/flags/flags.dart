@@ -61,7 +61,6 @@ void main() {
   drawCuba(ctx);
   querySelector("#cuba").onClick.listen((e) => drawCuba(ctx));
   querySelector("#china").onClick.listen((e) => drawCHINA(ctx));
-  querySelector("#button").onClick.listen((e) => clearCanvas());
   querySelector("#San").onClick.listen((e) => drawSAN(ctx));
   querySelector("#usa").onClick.listen((e) => drawUSA(ctx));
   querySelector("#uk").onClick.listen((e) => drawUK(ctx));
