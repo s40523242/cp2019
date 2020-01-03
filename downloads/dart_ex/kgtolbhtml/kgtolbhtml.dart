@@ -19,9 +19,9 @@ convert(String data){
   number = data.substring(0, len-2);
   number = int.parse(number);
   if (type == "K" || type == "k"){
-     output.innerHtml = "公斤 $number kg = 磅 ${GtoB(number).toStringAsFixed(4)} lb";
+     output.innerHtml = " $number kg =  ${GtoB(number).toStringAsFixed(4)} lb";
   } else if ((type == "L" || type == "l")){
-     output.innerHtml = "磅 $number lb = 公斤 ${BtoG(number).toStringAsFixed(4)} kg";
+     output.innerHtml = " $number lb = 公斤 ${BtoG(number).toStringAsFixed(4)} kg";
   } else {
      output.innerHtml = "請輸入數字加上 KG 或 LB!";
   }
